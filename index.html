@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Spotify</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="icon" type="image/png" href="images/logo.png" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand">
+          <img src="images/logo.png" alt="Spotify" />Spotify
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="container">
+      <div class="songList">
+        <h1>Playlist - Talha Anjum</h1>
+        <div class="songItemContainer">
+          <div class="songItem" id="songItem0">
+            <img src="images/song1.jpg" alt="1" />
+            <span class="songName">Song Title 1</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                05:43
+                <i id="0" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem1">
+            <img src="images/song2.jpg" alt="2" />
+            <span class="songName">Song Title 2</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                03:48
+                <i id="1" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem2">
+            <img src="images/song3.jpg" alt="3" />
+            <span class="songName">Song Title 3</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                02:49
+                <i id="2" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem3">
+            <img src="images/song4.jpg" alt="4" />
+            <span class="songName">Song Title 4</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                03:17
+                <i id="3" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem4">
+            <img src="images/song5.jpg" alt="5" />
+            <span class="songName">Song Title 5</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:24
+                <i id="4" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem5">
+            <img src="images/song6.jpg" alt="6" />
+            <span class="songName">Song Title 6</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:28
+                <i id="5" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem6">
+            <img src="images/song7.jpg" alt="7" />
+            <span class="songName">Song Title 7</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:20
+                <i id="6" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem7">
+            <img src="images/song8.jpg" alt="8" />
+            <span class="songName">Song Title 8</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:04
+                <i id="7" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem8">
+            <img src="images/song9.jpg" alt="9" />
+            <span class="songName">Song Title 9</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:29
+                <i id="8" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem9">
+            <img src="images/song10.jpg" alt="10" />
+            <span class="songName">Song Title 10</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                03:00
+                <i id="9" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem10">
+            <img src="images/song11.jpg" alt="11" />
+            <span class="songName">Song Title 11</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                04:38
+                <i id="10" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItem" id="songItem11">
+            <img src="images/song12.jpg" alt="12" />
+            <span class="songName">Song Title 12</span>
+            <span class="songListPlay">
+              <span class="timestamp">
+                03:48
+                <i id="11" class="fa-solid songItemPlay fa-circle-play"></i>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="slider_container">
+        <div class="current-time">00:00</div>
+        <input type="range" id="myProgressBar" value="0" min="0" max="100" />
+        <div class="total-duration">00:00</div>
+      </div>
+
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-backward" id="previous"></i>
+        <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-2x fa-forward" id="next"></i>
+      </div>
+
+      <div class="songInfo">
+        <span id="masterSongName">No Song Playing</span>
+      </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/bf4140a385.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
